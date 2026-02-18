@@ -86,7 +86,7 @@ Add your Groq API key:
 GROQ_API_KEY=your_groq_api_key_here
 
 
-Generate your key from:
+# Generate your key from:
 https://console.groq.com/keys
 
 Install dotenv if needed:
@@ -104,7 +104,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 ```
 
-5. Configure PostgreSQL
+## 5. Configure PostgreSQL
 
 Update the DATABASES section in settings.py:
 
@@ -129,7 +129,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. Run Django Backend
+## 6. Run Django Backend
 
 ```bash
 python manage.py runserver
@@ -140,7 +140,7 @@ Backend runs at:
 http://127.0.0.1:8000/
 ```
 
-7. Run Streamlit Frontend
+## 7. Run Streamlit Frontend
 
 Install if not installed:
 ```bash
@@ -176,6 +176,6 @@ Returns generated answer
 
 Benefits
 
-✅Faster responses
-✅Reduced API cost
-✅Better scalability
+- ✅Faster responses
+- ✅Reduced API cost
+- ✅Better scalability
