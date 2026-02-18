@@ -86,7 +86,7 @@ Add your Groq API key:
 GROQ_API_KEY=your_groq_api_key_here
 
 
-# Generate your key from:
+### Generate your key from:
 https://console.groq.com/keys
 
 Install dotenv if needed:
@@ -161,7 +161,7 @@ Frontend runs at:
 ```bash
 http://localhost:8501
 ```
-🧠 PostgreSQL Caching Strategy
+## 🧠 PostgreSQL Caching Strategy
 
 Before calling the LLM, the system checks PostgreSQL for an existing response.
 
